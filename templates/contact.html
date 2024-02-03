@@ -1,0 +1,63 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+ <!-- Banner Section start -->
+ <section class="banner-section inner-banner career career-details">
+    <div class="overlay">
+        <div class="shape-area">
+            <img src="{% static 'assets/images/banner-career.png' %}" class="shape-1" alt="image">
+        </div>
+        <div class="banner-content">
+            <div class="container wow fadeInUp">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-7">
+                        <div class="main-content">
+                            <h1>Address</h1>
+                            <div class="breadcrumb-area">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb d-flex align-items-center">
+                                        <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript:void(0)">Company</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Address</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-bottom pb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="top-box d-flex align-items-center justify-content-between">
+                        <div class="left-box">
+                            <div class="section-text">
+                                <h5 class="sub-title">Company</h5>
+                                <h2 class="title">Address</h2>
+                                <p>ABC.</p>
+                            </div>
+                            {% comment %} <ul>
+                                <li>Sydney, Australia</li>
+                                <li>Full time</li>
+                                <li>Entry-Level</li>
+                            </ul> {% endcomment %}
+                        </div>
+                        {% comment %} <div class="right-box">
+                            <a href="javascript:void(0)" class="cmn-btn">Apply Now</a>
+                        </div> {% endcomment %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Banner Section end -->
+
+{% endblock %}
