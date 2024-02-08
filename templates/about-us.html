@@ -132,7 +132,7 @@
 <!-- Our Values end -->
 
 <!-- Our Team start -->
-<section class="our-team">
+{% comment %} <section class="our-team">
     <div class="overlay pt-120 pb-120">
         <div class="container wow fadeInUp">
             <div class="row align-items-center justify-content-center">
@@ -250,7 +250,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> {% endcomment %}
 <!-- Our Team end -->
 
 <!-- Location start -->
@@ -261,8 +261,8 @@
                 <div class="col-xl-8">
                     <div class="section-header text-center">
                         <h5 class="sub-title">Our offices</h5>
-                        <h2 class="title">Come and visit our offices around the world</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit diam malesuada nisl enim phasellus condimentum.</p>
+                        {% comment %} <h2 class="title">Come and visit our offices around the world</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit diam malesuada nisl enim phasellus condimentum.</p> {% endcomment %}
                     </div>
                 </div>
             </div>
@@ -273,19 +273,19 @@
                             <div class="img-box">
                                 <img src="{% static 'assets/images/icon/location-icon-1.png'  %}" alt="image">
                             </div>
-                            <h4>San Francisco</h4>
+                            <h4>Bengaluru</h4>
                         </div>
                         <div class="email-phone">
                             <div class="img-box">
                                 <img src="{% static 'assets/images/icon/email-icon-1.png'  %}" alt="icon">
                             </div>
-                            <p><a href="https://pixner.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4a392b242c382b2429233929250a3a2b3326232564292527">[email&#160;protected]</a></p>
+                            <p><a href="https://pixner.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4a392b242c382b2429233929250a3a2b3326232564292527">67richardthomas@gmail.com</a></p>
                         </div>
                         <div class="email-phone">
                             <div class="img-box">
                                 <img src="{% static 'assets/images/icon/phone-icon-1.png'  %}" alt="icon">
                             </div>
-                            <p>415) 931 - 1616</p>
+                            <p>+91 9844477246</p>
                         </div>
                         <div class="bottom-area">
                             <a href="javascript:void(0)">
@@ -295,7 +295,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+
+                {% comment %} <div class="col-xl-4 col-md-6">
                     <div class="single-box">
                         <div class="head-area d-flex align-items-center">
                             <div class="img-box">
@@ -322,8 +323,8 @@
                             </a>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
+                </div> {% endcomment %}
+                {% comment %} <div class="col-xl-4 col-md-6">
                     <div class="single-box">
                         <div class="head-area d-flex align-items-center">
                             <div class="img-box">
@@ -350,7 +351,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> {% endcomment %}
             </div>
         </div>
     </div>
