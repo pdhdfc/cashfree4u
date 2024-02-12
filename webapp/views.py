@@ -21,3 +21,9 @@ def contact(request):
 
 def login(request):
     return render(request, 'login.html')
+
+def video(request):
+    return render(request, 'video.html')
+
+def price(request):
+    return render(request, 'price.html')

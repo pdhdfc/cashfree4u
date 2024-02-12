@@ -12,6 +12,8 @@ urlpatterns = [
     path('help_center', views.help_center, name='help_center'),
     path('contact', views.contact, name='contact'),
     path('login', views.login, name='login'),
+    path('video', views.video, name='video'),
+    path('price', views.price, name='price'),
     
 ]
 if settings.DEBUG:
