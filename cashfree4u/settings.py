@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-mufx4i_9vk15=^vj1ae#*oc*$$xne1vt==005_%b48)ud3z43!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
+CSRF_TRUSTED_ORIGINS=['https://*.cashfree4u.com','https://*.54.175.165.75']
 
 
 # Application definition
